@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/zen/Desktop/swiftdocs/SwiftDocs/SwiftDocs.csproj": {}
+  },
+  "projects": {
+    "/home/zen/Desktop/swiftdocs/SwiftDocs/SwiftDocs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/zen/Desktop/swiftdocs/SwiftDocs/SwiftDocs.csproj",
+        "projectName": "SwiftDocs",
+        "projectPath": "/home/zen/Desktop/swiftdocs/SwiftDocs/SwiftDocs.csproj",
+        "packagesPath": "/home/zen/.nuget/packages/",
+        "outputPath": "/home/zen/Desktop/swiftdocs/SwiftDocs/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/zen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
+            "PDFsharp": {
+              "target": "Package",
+              "version": "[6.2.0-preview-2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/zen/dotnet/sdk/8.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

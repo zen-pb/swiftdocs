@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net48</TargetFramework>
+        <UseWindowsForms>true</UseWindowsForms>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Reference Include="System.Windows.Forms" />
+        <Reference Include="System.Drawing" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Forms\MenuForm.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="Forms\LoginForm.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="Forms\SignupForm.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="Forms\MainForm.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="Forms\FormatForm.cs">
+        <SubType>Form</SubType>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="PDFsharp" Version="6.2.0-preview-2" />
+    </ItemGroup>
+
+</Project>
